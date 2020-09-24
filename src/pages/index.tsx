@@ -13,10 +13,12 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
+            A Tog's Trek<span className="fancy">.</span>
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
+          <span className="handle">Travel Photography</span>
+          <h2>I grew up travelling. 
+
+By the time I was 18, I'd lived in the UK, the USA, Singapore, the Netherlands and Nigeria. I've never stopped and so by the end of 2019, I've visited 60 countries; many a number of times. I've been asked, "Do you ever just go to a beach and just lay there?" and the answer is no, I relax by seeing something new and wonderful.</h2>
           <SocialList />
         </div>
       </div>
