@@ -1,6 +1,6 @@
 .content {
   font-family: "Josefin", sans-serif;
-  color: #9C9C9C;
+  color: #808080;
   font-weight: 200;
 }
 
@@ -21,7 +21,7 @@
 .content h1 {
   margin: 2.5rem 0 0 0;
   font-variant: petite-caps;
-  color: #343434;
+  color: #555555;
 }
 
 .content h2,
