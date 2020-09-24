@@ -2,10 +2,7 @@
   "base_url": "https://focused-bassi-0e65c4.netlify.app",
   "site_title": "A Tog's Trek",
   "site_description": "Next.js blog template for Netlify",
-  "site_keywords": [
-    "Photography",
-    "Travel"
-  ],
+  "site_keywords": [],
   "posts_per_page": 5,
   "twitter_account": "@sebastianjshaw",
   "github_account": "sebastianjshaw"
