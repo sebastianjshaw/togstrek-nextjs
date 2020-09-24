@@ -1,6 +1,6 @@
 import React from "react";
 import { PostContent } from "../lib/posts";
-import { continentContent } from "../lib/continents";
+import { ContinentContent } from "../lib/continents";
 import PostItem from "./PostItem";
 import Pagination from "./Pagination";
 
