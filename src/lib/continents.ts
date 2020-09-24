@@ -1,24 +1,24 @@
-import tags from "../../meta/tags.yml";
+import continents from "../../meta/continents.yml";
 
-export type TagContent = {
+export type ContinentContent = {
   readonly slug: string;
   readonly name: string;
 };
 
-const tagMap: { [key: string]: TagContent } = generateTagMap();
+const continentMap: { [key: string]: ContinentContent } = generateContinentMap();
 
-function generateTagMap(): { [key: string]: TagContent } {
-  let result: { [key: string]: TagContent } = {};
-  for (const tag of tags.tags) {
-    result[tag.slug] = tag;
+function generateContinentMap(): { [key: string]: ContinentContent } {
+  let result: { [key: string]: ContinentContent } = {};
+  for (const continent of continents.continents) {
+    result[continent.slug] = continent;
   }
   return result;
 }
 
-export function getTag(slug: string) {
-  return tagMap[slug];
+export function getContinent(slug: string) {
+  return continentMap[slug];
 }
 
-export function listTags(): TagContent[] {
-  return tags.tags;
+export function listContinents(): ContinentContent[] {
+  return continents.continents;
 }
