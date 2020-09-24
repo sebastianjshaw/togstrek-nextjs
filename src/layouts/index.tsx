@@ -108,6 +108,7 @@ export default function Index({
             h1 {
               margin: 0 0 0.5rem;
               font-size: 2.25rem;
+              font-variant-caps: all-petite-caps;
             }
             .tag-list {
               list-style: none;

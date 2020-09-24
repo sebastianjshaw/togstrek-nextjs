@@ -86,6 +86,7 @@ export default function PostList({ posts, tags, continents, pagination }: Props)
         @media (min-width: 769px) {
           .categories {
             display: block;
+            margin-right: 1em;
           }
         }
       `}</style>
