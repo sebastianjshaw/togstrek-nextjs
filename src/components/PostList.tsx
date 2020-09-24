@@ -10,7 +10,7 @@ import { ContinentContent } from "../lib/continents";
 type Props = {
   posts: PostContent[];
   tags: TagContent[];
-  continents: ContinentsContent[];
+  continents: ContinentContent[];
   pagination: {
     current: number;
     pages: number;
