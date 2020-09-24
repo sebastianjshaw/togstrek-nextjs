@@ -1,13 +1,13 @@
 import Link from "next/link";
-import { TagContent } from "../lib/tags";
+import { ContinentContent } from "../lib/continents";
 
 type Props = {
-  tag: TagContent;
+  continent: ContinentContent;
 };
-export default function Tag({ tag }: Props) {
+export default function Continent({ continent }: Props) {
   return (
-    <Link href={"/posts/tags/[[...slug]]"} as={`/posts/tags/${tag.slug}`}>
-      <a>{"#" + tag.name}</a>
+    <Link href={"/posts/continents/[[...slug]]"} as={`/posts/continents/${continent.slug}`}>
+      <a>{continent.name}</a>
     </Link>
   );
 }
