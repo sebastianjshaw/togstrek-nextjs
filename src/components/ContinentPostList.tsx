@@ -6,13 +6,13 @@ import Pagination from "./Pagination";
 
 type Props = {
   posts: PostContent[];
-  continent: continentContent;
+  continent: ContinentContent;
   pagination: {
     current: number;
     pages: number;
   };
 };
-export default function continentPostList({ posts, continent, pagination }: Props) {
+export default function ContinentPostList({ posts, continent, pagination }: Props) {
   return (
     <div className={"container"}>
       <h1>
