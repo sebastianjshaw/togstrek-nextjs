@@ -1,6 +1,6 @@
 .content {
-  font-family: "Ubuntu", sans-serif;
-  color: #222;
+  font-family: "Josefin", sans-serif;
+  color: #9C9C9C;
   font-weight: 200;
 }
 
@@ -20,6 +20,7 @@
 
 .content h1 {
   margin: 2.5rem 0 0 0;
+  font-variant: petite-caps;
 }
 
 .content h2,
@@ -66,6 +67,7 @@
 
 .content blockquote {
   margin: 0 1rem;
+  font-style: italic;
 }
 
 .content blockquote::before {
