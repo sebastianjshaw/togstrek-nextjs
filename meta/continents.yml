@@ -13,3 +13,6 @@ tags:
     name: Africa
   - slug: oceania
     name: Oceania
+continents:
+  - slug: europe
+    name: Europe
