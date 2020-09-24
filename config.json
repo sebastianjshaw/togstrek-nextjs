@@ -4,6 +4,7 @@
   "site_description": "Next.js blog template for Netlify",
   "site_keywords": [],
   "posts_per_page": 5,
-  "twitter_account": "@sebastianjshaw",
-  "github_account": "sebastianjshaw"
+  "twitter_account": "sebastianjshaw",
+  "github_account": "sebastianjshaw",
+  "instagram_account": "sebastianjshaw"
 }
