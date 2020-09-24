@@ -2,18 +2,21 @@ import React from "react";
 import { PostContent } from "../lib/posts";
 import PostItem from "./PostItem";
 import TagLink from "./TagLink";
+import ContinentLink from "./ContinentLink";
 import Pagination from "./Pagination";
 import { TagContent } from "../lib/tags";
+import { ContinentContent } from "../lib/continents";
 
 type Props = {
   posts: PostContent[];
   tags: TagContent[];
+  continents: ContinentsContent[];
   pagination: {
     current: number;
     pages: number;
   };
 };
-export default function PostList({ posts, tags, pagination }: Props) {
+export default function PostList({ posts, tags, continents, pagination }: Props) {
   return (
     <div className={"container"}>
       <div className={"posts"}>
@@ -37,6 +40,13 @@ export default function PostList({ posts, tags, pagination }: Props) {
         {tags.map((it, i) => (
           <li key={i}>
             <TagLink tag={it} />
+          </li>
+        ))}
+      </ul>
+      <ul className={"categories"}>
+        {continents.map((it, i) => (
+          <li key={i}>
+            <ContinentsLink tag={it} />
           </li>
         ))}
       </ul>
