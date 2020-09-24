@@ -1,13 +1,15 @@
 tags:
-  - slug: document
-    name: document
-  - slug: mock
-    name: mock
-  - slug: style
-    name: style
-  - slug: license
-    name: license
-  - slug: mdx
-    name: mdx
-  - slug: markdown
-    name: markdown
+  - slug: europe
+    name: Europe
+  - slug: asia
+    name: Asia
+  - slug: antarctica
+    name: Antarctica
+  - slug: north-america
+    name: North America
+  - slug: south-america
+    name: South America
+  - slug: africa
+    name: Africa
+  - slug: oceania
+    name: Oceania
