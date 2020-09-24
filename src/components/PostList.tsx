@@ -46,7 +46,7 @@ export default function PostList({ posts, tags, continents, pagination }: Props)
       <ul className={"categories"}>
         {continents.map((it, i) => (
           <li key={i}>
-            <ContinentLink tag={it} />
+            <ContinentLink continent={it} />
           </li>
         ))}
       </ul>
