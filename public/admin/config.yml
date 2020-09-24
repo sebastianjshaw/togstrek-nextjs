@@ -87,6 +87,24 @@ collections:
                 name: "name"
                 widget: "string"
                 hint: "Tag name for displaying on the site"
+      - name: "continents"
+        label: "Continents"
+        file: "meta/continents.yml"
+        description: "Continents of the World"
+        fields:
+          - name: continents
+            label: Continents
+            label_singular: "Continent"
+            widget: list
+            fields:
+              - label: "Slug"
+                name: "slug"
+                widget: "string"
+                hint: "The part of a URL identifies the continent"
+              - label: "Display Name"
+                name: "name"
+                widget: "string"
+                hint: "Continent name for displaying on the site"
 
   - name: "posts"
     label: "Posts"
@@ -136,6 +154,22 @@ collections:
           displayFields:
             - "tags.*.name"
           valueField: "tags.*.slug"
+      - label: Continents
+        label_singular: "Continent"
+        name: "continents"
+        widget: list
+        summary: "{{fields.continent}}"
+        field:
+          label: Continent
+          name: continent
+          widget: relation
+          collection: "meta"
+          file: "continents"
+          searchFields:
+            - "continents.*.name"
+          displayFields:
+            - "continents.*.name"
+          valueField: "continents.*.slug"
       - label: "Body"
         name: "body"
         widget: "markdown"
